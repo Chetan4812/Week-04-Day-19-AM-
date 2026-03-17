@@ -1,4 +1,4 @@
-# Week-04-Day-19-AM-
+# Week-04-Day-19-AM
 
 ## Part A — Concept Application (40%)
 
@@ -33,3 +33,24 @@
     *   Difference in means.
 [Solution](mean_var_meandiff.py)
 
+## Part B — Stretch Problem (30%)
+
+Implement a basic hypothesis testing function: `two_sample_t_test(sample1, sample2)`
+
+**Steps:**
+1. Compute mean and variance of both samples.
+2. Calculate t-statistic.
+3. Interpret result using a significance level (e.g., 0.05).
+
+**Apply on a real or synthetic dataset and conclude:**
+* Are the two samples significantly different?
+
+[Solution](hypothesis_testing_fctn.py)
+### Explanation:
+### Based on the sample dataset (A vs. B):
+
+*   **Results:** The t-test yields a p-value of 0.0295.
+*   **Interpretation:** Since the p-value (0.0295) is less than the significance level (0.05), we reject the null hypothesis.
+*   **Conclusion:** Yes, the two samples are significantly different.
+
+---
